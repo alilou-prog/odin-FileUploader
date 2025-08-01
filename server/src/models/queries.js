@@ -6,7 +6,6 @@ async function get_all_users() {
     console.log(result);
 }
 
-get_all_users()
 
 async function create_user(user) {
     await prisma.user.create({
